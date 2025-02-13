@@ -15,11 +15,16 @@ public class IrregularPolygon {
     public void add(Point2D.Double aPoint)
     {
         // TODO: Add a point to the IrregularPolygon.
-        myPolygon.add(apoint);
+        myPolygon.add(aPoint);
     }
 
     public double perimeter() {
-        // TODO: Calculate the perimeter. 
+        // TODO: Calculate the perimeter.
+        Point2D.Double aPoint = myPolygon.get(0);
+        Point2D.Double bPoint;
+        for (int i =0; i<myPolygon.size();i++){
+
+        }
         return 3.14;
     }
 
