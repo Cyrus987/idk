@@ -57,6 +57,14 @@ public class IrregularPolygon {
             // Documents: https://pavao.org/compsci/gpdraw/html/gpdraw/DrawingTool.html
             DrawingTool pen = new DrawingTool(new SketchPad(500, 500));
             pen.move(50, 50);
+            pen.forward(75);
+            pen.turnLeft(90);
+            pen.forward(75);
+            pen.turnLeft(90);
+            pen.forward(75);
+            pen.turnLeft(75);
+            pen.forward(75);
+        
         } catch (java.awt.HeadlessException e) {
             System.out.println("Exception: No graphics support available.");
         }
